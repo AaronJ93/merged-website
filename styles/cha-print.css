@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+nav#hamnav {
+	display: none;
+}
+
+div#main {
+	grid-column: span 1;
+}
+
+#introVid {
+	display: none;
+}
+	
+div#aside {
+	grid-column: span 1;
+	font-size: 0.9em;
+}
+
+div.formspolicies {
+	font-size: 0.9em;
+}
+
+.page-break {
+	display: block;
+	page-break-before: always;
+}

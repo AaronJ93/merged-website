@@ -1,0 +1,8 @@
+{
+  "name": "merged-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  }
+}
+

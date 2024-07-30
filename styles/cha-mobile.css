@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* Screens under 480px */
+
+@media all and (max-width: 480px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	
+	h2 {
+		font-size: 1.2em;
+	}
+	
+	h3 {
+		font-size: 1.0em;
+	}
+	
+	p {
+		font-size: 0.8em;
+	}
+	
+	div#main table {
+		border-spacing: 10px 5px;
+		padding: 1% 1%;
+	}
+	
+	div#main table td {
+		font-size: 0.8em;
+	}
+	
+	.tableArrow {
+		display: none;
+	}
+}	
+
+/* Screens under 680px */
+
+@media all and (max-width: 680px) {
+	
+	ul#navBar li {
+		display: block;
+		text-align: left;
+		padding: 0px 0px;
+	}
+	
+	ul#navBar ul li a {
+		display: block;
+		width: 100%;
+		padding-left: 10px;
+	}
+	
+	.dropbtn {
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.dropdown-content {
+		position: relative;
+		width: 100%;
+	}
+	
+	div#main {
+		grid-column: span 2;
+	}
+	
+	div#aside {
+		grid-column: span 2;
+	}
+
+	/* Hamburger Menu */
+
+	 #hamnav label { 
+		display: inline-block;
+		color: white;
+		background-color: rgb(1,105,201);
+		font-size: 1.4em;
+		width: 4%;
+		padding: 10px 94% 10px 2%;
+	 }
+	 
+	/* Toggle Show/Hide Hamburger Menu */
+
+	#navBar {
+		display: none; 
+	}
+
+	#hamnav input:checked ~ #navBar {
+		display: block;
+	}
+}
+
+/* Screens under 780px */
+
+@media all and (max-width: 780px) {
+	div#aside p{
+		font-size: 0.9em;
+	}
+	
+	div#main table {
+		border-spacing: 15px 8px;
+		padding: 1% 3%;
+	}
+}

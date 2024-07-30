@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHA - Contact Us</title>
+    <link href="styles/cha-reset.css" rel="stylesheet" media="all"/>
+    <link href="styles/cha-layout.css" rel="stylesheet" media="screen"/>
+    <link href="styles/cha-tables.css" rel="stylesheet" media="screen"/>
+    <link href="styles/cha-mobile.css" rel="stylesheet" media="screen" />
+    <link href="styles/cha-printer.css" rel="stylesheet" media="print" />
+    <link href="styles/cha-stylesheet.css" rel="stylesheet" media="screen"/>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="media/chalogo1-color-noback.png" alt="Cairo Housing Authority logo" id="chaLogo" /></a>
+        <nav id="hamnav">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+            <ul id="navBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="policies.html">Policies</a></li>
+                <li><a href="housing-info.html">Housing Information</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Gallery</button>
+                    <div class="dropdown-content">
+                        <a href="gallery.html#comRoom">Community Room</a>
+                        <a href="gallery.html#outFacility">Outdoor Facility</a>
+                        <a href="gallery.html#lUnit">Large Unit</a>
+                        <a href="gallery.html#sUnit">Small Unit</a>
+                    </div>
+                </li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li id="currentPage"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1 id="page-name">Contact Us</h1>
+        <h2 id="contact-info">Contact Information</h2>
+        <p><b>Cairo Housing Authority</b><br>
+        420 Main Street<br>
+        PO Box 337<br>
+        Cairo, Nebraska 68824<br>
+        Phone: 308-485-4722</p>
+        
+        <h2 id="office-hours">Office Hours</h2>
+        <p>Monday: 5:30pm - 9:30pm<br>
+        Friday: 5:30pm - 9:30pm</p>
+        <p><em>Pre-arranged appointments also accepted.</em></p>
+        
+        <h2 id="table">Office Hours Table</h2>
+        <table class="tftable" border="1">
+            <tr><th>Day</th><th>Open</th><th>Close</th></tr>
+            <tr><td>Monday</td><td>5:30 PM</td><td>9:30 PM</td></tr>
+            <tr><td>Friday</td><td>5:30 PM</td><td>9:30 PM</td></tr>
+        </table>
+        
+        <h2>Contact Form</h2>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label for="name">Name</label><br>
+                <input name="custName" id="name" type="text" placeholder="First and last name" required /><br>
+                <label for="email">Email</label><br>
+                <input name="emailName" id="email" type="email" placeholder="cha123@your_email.com" required /><br>
+                <label for="message">Message</label><br>
+                <textarea name="messageForm" id="message" placeholder="Reach out here..." required></textarea>
+                <div id="buttons">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Cancel" />
+                </div>                
+            </fieldset>
+        </form>
+    </article>
+    <aside id="links">
+        <nav id = "vertical-nav">
+            <h2>Useful Links</h2>
+            <ul>
+                <li>Housing Information</li>
+                <li><a href="housing-info.html#apply">Apply for Housing</a></li>
+                <li><a href="housing-info.html#inspections">Inspections</a></li>
+                <li><a href="housing-info.html#community-service">Community Service</a></li>
+                <li><a href="housing-info.html#required-forms">Required Forms</a></li>
+            </ul>
+            <ul>
+                <li>Policies</li>
+                <li><a href="policies.html#parking-policy">Parking Policy</a></li>
+                <li><a href="policies.html#pet-policy">Pet Policy</a></li>
+                <li><a href="policies.html#rent-collection-policy">Rent Collection Policy</a></li>
+                <li><a href="policies.html#eviction-policy">Collection-Eviction Policy</a></li>
+            </ul>
+            <ul>
+                <li>Resources</li>
+                <li><a href="resources.html#all-info">All Documents</a></li>
+                <li><a href="resources.html#all-forms">All Forms</a></li>
+                <li><a href="resources.html#newsletter">Newsletter</a></li>
+            </ul>
+            <ul>
+                <li>Contact Us</li>
+                <li><a href="contact-us.html#contact-info">Contact Information</a></li>
+                <li><a href="contact-us.html#office-hours">Office Hours</a></li>
+                <li><a href="contact-us.html#table">Office Hours Table</a></li>
+            </ul>
+            <ul>
+                <li>For more information</li>
+                <li><a href="resources.html">Downloads Page</a></li>
+                <li>Call: <a href="tel:308-485-4722">(308)485-4722</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <address id="location">Cairo Housing Authority - 420 Main Street, Cairo, NE 68824</address>
+    </footer>
+</body>
+</html>
